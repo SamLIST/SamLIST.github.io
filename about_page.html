@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <style>
+        * {
+          box-sizing: border-box;
+        }
+        
+        body {
+          font-family: Arial;
+          padding: 10px;
+          background: #f1f1f1;
+        }
+        
+        /* Header/Blog Title */
+        .header {
+          padding: 30px;
+          text-align: center;
+          background: white;
+        }
+        
+        .header h1 {
+          font-size: 45px;
+        }
+        
+        /* Style the top navigation bar */
+        .topnav {
+          overflow: hidden;
+          background-color: rgb(2, 196, 196);
+        }
+        
+        /* Style the topnav links */
+        .topnav a {
+          float: left;
+          display: block;
+          color: #f2f2f2;
+          text-align: center;
+          padding: 14px 16px;
+          text-decoration: none;
+        }
+        
+        /* Change color on hover */
+        .topnav a:hover {
+          background-color: #ddd;
+          color: black;
+        }
+        
+        /* Create two unequal columns that floats next to each other */
+        /* Left column */
+        .leftcolumn {   
+          float: left;
+          width: 90%;
+        }
+        
+        /* Right column */
+        .rightcolumn {
+          float: left;
+          width: 25%;
+          background-color: #f1f1f1;
+          padding-left: 20px;
+        }
+        
+        /* Fake image */
+        .fakeimg {
+          background-color: #aaa;
+          width: 100%;
+          padding: 20px;
+        }
+        
+        /* Add a card effect for articles */
+        .card {
+          background-color: white;
+          padding: 20px;
+          margin-top: 20px;
+        }
+        
+        
+        .row:after {
+          content: "";
+          display: table;
+          clear: both;
+        }
+        
+        
+        .footer {
+          padding: 20px;
+          text-align: center;
+          background: #ddd;
+          margin-top: 20px;
+        }
+        
+        /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+        @media screen and (max-width: 800px) {
+          .leftcolumn, .rightcolumn {   
+            width: 100%;
+            padding: 0;
+          }
+        }
+        
+        /* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+        @media screen and (max-width: 400px) {
+          .topnav a {
+            float: none;
+            width: 100%;
+          }
+        }
+        </style>
+        </head>
+        <body>
+        
+        <div class="header">
+          <h1>About Page</h1>
+
+        </div>
+        
+        <div class="topnav">
+          <a href="index.html">Home</a>
+          <a href="chapter_3.html">Chapter 3</a>
+          <a href="chapter_4.html">Chapter 4</a>
+          <a href="about_page.html">About Page</a>
+        </div>
+        
+        <div class="row">
+          <div class="leftcolumn">
+            <div class="card">
+              <h2>Introducing to ICT Chapter 3&4</h2>
+              <h4>What is it about? </h4>
+              <img src="images/ICT_textbook.jpg"   alt="IGCSE ICT textbook"width="300" length="200">
+              <p style="font-size: 120%">
+                We will be covering chapter 3 and 4 of the Cambridge IGCSE ICT text book. 
+                The purpose of this website is to educate people on some aspect about computer's systems and how it work. 
+                This is all base on the IGCSE ICT text book created by Sam Y.10 from Lanna International School thailand, LIST for short. 
+               
+               <br> <br> Things that we will be covering:
+                
+                <br> Chapter 3:
+                <ul style="font-size: 120%">
+                      <li>Backing up of data & why?</li>
+                      <li>Secondary storage media</li>
+                  </ul>
+                  Chapter 4:
+                  <ul style="font-size: 120%">
+                      <li>Network device</li>
+                      <li>Network security</li>
+                  </ul>
+                </p>
+            </div>
+           
+        
+        <div class="footer">
+          <h2><a href="mailto:25samchanpongsri@lannaist.ac.th">Personal Contact</a></h2>
+          
+        </div>
+        
+        </body>
+</html>

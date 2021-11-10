@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <head>
+        <style>
+        * {
+          box-sizing: border-box;
+        }
+        
+        body {
+          font-family: Arial;
+          padding: 10px;
+          background: #f1f1f1;
+        }
+        
+        /* Header/Blog Title */
+        .header {
+          padding: 30px;
+          text-align: center;
+          background: white;
+        }
+        
+        .header h1 {
+          font-size: 45px;
+        }
+        
+        /* Style the top navigation bar */
+        .topnav {
+          overflow: hidden;
+          background-color: rgb(4, 196, 186);
+        }
+        
+        /* Style the topnav links */
+        .topnav a {
+          float: left;
+          display: block;
+          color: #f2f2f2;
+          text-align: center;
+          padding: 14px 16px;
+          text-decoration: none;
+        }
+        
+        /* Change color on hover */
+        .topnav a:hover {
+          background-color: #ddd;
+          color: black;
+        }
+        
+        /* Create two unequal columns that floats next to each other */
+        /* Left column */
+        .leftcolumn {   
+          float: left;
+          width: 90%;
+        }
+        
+        /* Right column */
+        .rightcolumn {
+          float: left;
+          width: 25%;
+          background-color: #f1f1f1;
+          padding-left: 20px;
+        }
+        
+       
+
+          
+      
+        
+        /* Add a card effect for articles */
+        .card {
+          background-color: white;
+          padding: 20px;
+          margin-top: 20px;
+        }
+        
+        
+        .row:after {
+          content: "";
+          display: table;
+          clear: both;
+        }
+        
+        
+        .footer {
+          padding: 20px;
+          text-align: center;
+          background: #ddd;
+          margin-top: 20px;
+        }
+        
+        /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+        @media screen and (max-width: 800px) {
+          .leftcolumn, .rightcolumn {   
+            width: 100%;
+            padding: 0;
+          }
+        }
+        
+        /* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+        @media screen and (max-width: 400px) {
+          .topnav a {
+            float: none;
+            width: 100%;
+          }
+        }
+        </style>
+        </head>
+        <body>
+        
+        <div class="header">
+          <h1>Chapter 3 </h1>
+          
+        </div>
+        
+        <div class="topnav">
+          <a href="index.html">Home</a>
+          <a href="chapter_3.html">Chapter 3</a>
+          <a href="chapter_4.html">Chapter 4</a>
+          <a href="about_page.html">About Page</a>
+        </div>
+        
+        <div class="row">
+          <div class="leftcolumn">
+            <div class="card">
+              <h2>Chapter 3, Storage Device and Media</h2>
+              <p><img src="images/image_storage.jpeg"   alt="diagram of storage systems"width="500" length="400"></p>
+              
+              <h3>3.1 Backing Up of Data</h3>
+              <p style="font-size:120%">
+                 In this chapter we will be covering form of secondary storage 
+                 and compare the advantage and the disadvantages of each type.<br>
+                 It is important to consider that why we need to back-up data and also how data are accesess.
+                 On this chapter we will be covering <br>'what is backing up data and why?',
+                  Secondary storage media, magnetic storage media, solid state storage media, <br>
+                 and optical storage media.
+                </p>
+                <h3>What is backing up of data?</h3>
+                <p style="font-size:120%">
+                  <em>Backing up</em> refer to the copying of data to a storage unit like disk, tape, flash drive, etc. <br>
+                  This is a common thing for computer to backing up their data, it is like a basis for computer to buck up the data. Many computer can back up data automaticly. <br>
+                  An example of that would be the magnetic tape to back up the internet severs or cloud storage company <br>
+                  using magnetic tape or hard disk o drive to back up client's on a regular basis. The backup are often stored in a different place to the main storage. 
+                  This is becasue in case of fire or some some other siduation that could lead to irretrievable lost of key data/files. 
+
+                </p>
+                <img src="images/backing_up_data.png" alt="storage backing up"  width="500" length="400">
+                <h3>Why backup data</h3>
+                <p style="font-size: 120%">
+                  Ther are many reason why you need to backing up your computer data. 
+                  <ul style="font-size: 120%">
+                    <li>To safegaurd against the lost data due to the failure of the original secondary hard drive.</li>
+                    <li>To safegaurd against damage cause by hacker</li>
+                    <li>Backups are also made incase the file need to be use in elsewhere; this protect the original against possible curruption or lost.</li>
+                    <li>Backups usually don't nessesarly backups against the effect of virus.</li>
+                  </ul>
+                </p>
+                <h3> 3.3 Secondary Storage Media</h3>
+                <p style="font-size: 120%">Secondary storage device ensure the data to be permanently stored in there so that it can be used later. The term 'bytes' represent the amount of storage you have and the space you could stored.
+                  The file size can be measured in kilobytes (kB), megabyte (MB), gigabyte (GB), terabyte (TB). These are the simple storage unit for an ordinary computer.
+                   </p>
+                   <head>
+                    <style>
+                    table {
+                      font-family: arial, sans-serif;
+                      border-collapse: collapse;
+                      width: 100%;
+                    }
+                    
+                    td, th {
+                      border: 1px solid #dddddd;
+                      text-align: left;
+                      padding: 8px;
+                    }
+                    
+                    tr:nth-child(even) {
+                      background-color: #dddddd;
+                    }
+                    </style>
+                    </head>
+                    <body>
+                    
+                    <h2>Storage Unit</h2>
+                    
+                    <table>
+                      <tr>
+                        <th>Storage Size</th>
+                        <th>Number of Bytes</th>
+                        <th>Number of Bytes In Power of 10</th>
+                      </tr>
+                      <tr>
+                        <td>kilobyte (KB)</td>
+                        <td>1000 bytes</td>
+                        <td>10^3 bytes</td>
+                      </tr>
+                      <tr>
+                        <td>megabyte (MB)</td>
+                        <td>1,000,000 bytes</td>
+                        <td>10^6 bytes</td>
+                      </tr>
+                      <tr>
+                        <td>gigabyte (GB)</td>
+                        <td>1,000,000,000 bytes</td>
+                        <td>10^9 bytes</td>
+                      </tr>
+                      <tr>
+                        <td>terabytes (TB)</td>
+                        <td>1,000,000,000,000 bytes</td>
+                        <td>10^12 bytes</td>
+                      </tr>
+                      
+                    </table>
+                    
+                    </body>
+                    
+                    <p style="font-size: 120%">
+                      Secondary storage device fall into these devices:
+                       Magnetic, Optical, and Solid state.
+                      
+                       Example of those storage device consist of: 
+                       
+                       <ul style="font-size: 120%">
+                         <li>Hard Disk Drive (HDD)</li>
+                         <li>Magnetic tape</li>
+                         <li>CD/DVD disk</li>
+                         <li>blu-ray disk</li>
+                         <li>Solid State Drive (SSD)</li>
+                         <li>Flash memory card</li>
+                       </ul>
+                       <img src="images/secondary.jpeg"   alt="secondary storage device including hard disk drive, CD/DVD, memory card, Solid State Drive, magnetic tape "width="500" length="400">
+                       <br> <a href="https://www.youtube.com/watch?v=Qqe915tqjY0" target="_blank">Press on this link for a good explanation about secondary storage</a>.
+                    </p>
+                      
+                        
+                      </p>
+                    
+
+              
+            </div>
+</html>

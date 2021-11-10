@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <style>
+        * {
+          box-sizing: border-box;
+        }
+        
+        body {
+          font-family: Arial;
+          padding: 10px;
+          background: #f1f1f1;
+        }
+        
+        /* Header/Blog Title */
+        .header {
+          padding: 30px;
+          text-align: center;
+          background: white;
+        }
+        
+        .header h1 {
+          font-size: 45px;
+        }
+        
+        /* Style the top navigation bar */
+        .topnav {
+          overflow: hidden;
+          background-color: rgb(2, 196, 196);
+        }
+        
+        /* Style the topnav links */
+        .topnav a {
+          float: left;
+          display: block;
+          color: #f2f2f2;
+          text-align: center;
+          padding: 14px 16px;
+          text-decoration: none;
+        }
+        
+        /* Change color on hover */
+        .topnav a:hover {
+          background-color: #ddd;
+          color: black;
+        }
+        
+        /* Create two unequal columns that floats next to each other */
+        /* Left column */
+        .leftcolumn {   
+          float: left;
+          width: 90%;
+        }
+        
+        /* Right column */
+        .rightcolumn {
+          float: left;
+          width: 25%;
+          background-color: #f1f1f1;
+          padding-left: 20px;
+        }
+        
+
+        
+        
+        /* Add a card effect for articles */
+        .card {
+          background-color: white;
+          padding: 20px;
+          margin-top: 20px;
+        }
+        
+        
+        .row:after {
+          content: "";
+          display: table;
+          clear: both;
+        }
+        
+        
+
+        
+        /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+        @media screen and (max-width: 800px) {
+          .leftcolumn, .rightcolumn {   
+            width: 100%;
+            padding: 0;
+          }
+        }
+        
+        /* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+        @media screen and (max-width: 400px) {
+          .topnav a {
+            float: none;
+            width: 100%;
+          }
+        }
+        </style>
+        </head>
+        <body>
+        
+        <div class="header">
+          <h1>Chapter 4</h1>
+
+        </div>
+        
+        <div class="topnav">
+          <a href="index.html">Home</a>
+          <a href="chapter_3.html">Chapter 3</a>
+          <a href="chapter_4.html">Chapter 4</a>
+          <a href="about_page.html">About Page</a>
+        </div>
+        
+        <div class="row">
+          <div class="leftcolumn">
+            <div class="card">
+              <h2>Chapter 4 ICT textbook</h2>
+
+              <img src="images/network-system.jpeg"   alt="picture of network systems"width="400" length="500">
+              <h3>Network Device</h3>
+              <p style="font-size: 120%">
+            Network device are for computer to connect with the network systems. The divicese are consist of Modems, Hubs, Switches, Bridges, and Routers. 
+            A network device is a node in the wireless mesh network. It can transmit and receive wireless HART data and perform the basic functions necessary to support network formation 
+            and maintenance. Network devices include field devices, router devices, gateway devices, and mesh hand-held devices.
+             
+            </p>
+            <h4>Modems</h4>
+            <p style="font-size: 120%">
+
+                Modem is short for "Modulator-Demodulator." It is a hardware component that allows a computer or another device, such as a router or switch, to connect to the Internet. 
+                Modems converts digital data from a computer or other device into an analog signal that can be sent over standard telephone lines.
+            </p>
+            <h4>Hubs</h4>
+            <p style="font-size: 120%">
+                A network hub is a node that broadcasts data to every computer or Ethernet-based device connected to it. A hub is less sophisticated than a switch, the latter of which can isolate data transmissions to specific devices. 
+                Network hubs are best suited for small, simple local area network (LAN) environments.
+
+            </p>
+            <h4>Switches</h4>
+            <p style="font-size:120% ">
+                A switch is a device in a computer network that connects other devices together.
+                Switches manage the flow of data across a network by transmitting a received network packet only to the one or more devices for which the packet is intended.
+            </p>
+            <h4>Bridges</h4>
+            <p style="font-size: 120%">
+                A network bridge is a computer networking device that creates a single, aggregate network from multiple communication networks or network segments. This function is called network bridging.
+            </p>
+            <h4>Routers</h4>
+            <p style="font-size: 120%">
+                A router is a switching device for networks, which is able to route network packets, based on their addresses, to other networks or devices. 
+                Among other things, they are used for Internet access, for coupling networks or for connecting branch offices to a central office via VPN (Virtual Private Network).
+            <br><a href="https://www.youtube.com/watch?v=eMamgWllRFY" target="_blank">Good video explanation on network devices.</a>.
+              </p>
+
+            <h3>Network security</h3>
+            <p style="font-size: 120%;">
+
+              <img src="images/network_security.jpeg" alt="image of network security with modern technologies"  width="400" length="500"x>
+
+             <br> <br> Network security is any activity designed to protect the usability and integrity of your network and data. It includes both hardware and software technologies.
+              Network security also target variety of threat. 
+              Network security is protection of the access to files and directories in a computer network against hacking, misuse and unauthorized changes to the system. 
+              An example of network security is an anti virus system. Network security are often use password to accese certant website or to login as a cerification to the website.
+               <br> The network security systems, device, and tools consist of: 
+              <ul style="font-size: 120%;">
+                <li>Access control</li>
+                <li>Antivirus and anti-malware software</li>
+                <li>Application security</li>
+                <li>Behavioral analytics</li>
+                <li>Data loss prevention</li>
+                <li>Distributed denial of service prevention</li>
+                <li>Email security</li>
+                <li>Firewalls</li>
+              </ul>
+              <a href="https://www.youtube.com/watch?v=uaqBCfGyoMc" target="_blank">Explanation about network security.</a>
+            </p>
+
+            </div>
+           
+        
+
+
+        </body>
+</html>

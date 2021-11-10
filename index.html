@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <style>
+        * {
+          box-sizing: border-box;
+        }
+        
+        body {
+          font-family: Arial;
+          padding: 10px;
+          background: #f1f1f1;
+        }
+        
+        /* Header/Blog Title */
+        .header {
+          padding: 30px;
+          text-align: center;
+          background: white;
+        }
+        
+        .header h1 {
+          font-size: 45px;
+        }
+        
+        /* Style the top navigation bar */
+        .topnav {
+          overflow: hidden;
+          background-color: rgb(2, 196, 196);
+        }
+        
+        /* Style the topnav links */
+        .topnav a {
+          float: left;
+          display: block;
+          color: #f2f2f2;
+          text-align: center;
+          padding: 14px 16px;
+          text-decoration: none;
+        }
+        
+        /* Change color on hover */
+        .topnav a:hover {
+          background-color: #ddd;
+          color: black;
+        }
+        
+        /* Create two unequal columns that floats next to each other */
+        /* Left column */
+        .leftcolumn {   
+          float: left;
+          width: 90%;
+        }
+        
+        /* Right column */
+        .rightcolumn {
+          float: left;
+          width: 25%;
+          background-color: #f1f1f1;
+          padding-left: 20px;
+        }
+        
+
+        
+        /* Add a card effect for articles */
+        .card {
+          background-color: white;
+          padding: 20px;
+          margin-top: 20px;
+        }
+        
+        
+        .row:after {
+          content: "";
+          display: table;
+          clear: both;
+        }
+        
+        
+        .footer {
+          padding: 20px;
+          text-align: center;
+          background: #ddd;
+          margin-top: 20px;
+        }
+        
+        /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+        @media screen and (max-width: 800px) {
+          .leftcolumn, .rightcolumn {   
+            width: 100%;
+            padding: 0;
+          }
+        }
+        
+        /* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+        @media screen and (max-width: 400px) {
+          .topnav a {
+            float: none;
+            width: 100%;
+          }
+        }
+        </style>
+        </head>
+        <body>
+        
+        <div class="header">
+          <h1>Chapter 3 and Chapter 4 ICT</h1>
+          <p>By Sam Y10.</p>
+        </div>
+        
+        <div class="topnav">
+          <a href="index.html">Home</a>
+          <a href="chapter_3.html">Chapter 3</a>
+          <a href="chapter_4.html">Chapter 4</a>
+          <a href="about_page.html">About Page</a>
+        </div>
+        
+        <div class="row">
+          <div class="leftcolumn">
+            <div class="card">
+              <h2>Welcome To My Webpage</h2>
+
+              <img src="images/website_welcome.jpeg"   alt="Welcome"width="600" length="1000">
+           <h3> Press on one of the chapter you want to visit about secondary storage media and backing up data (on chapter 3), network device and network security (on chapert 4)  in the ICT IGCSE textbook! </h3>
+        
+
+        
+            </div>
+           
+        
+        <div class="footer">
+          <h2><a href="mailto:25samchanpongsri@lannaist.ac.th">Personal Contact</a></h2>
+          
+        </div>
+        
+        </body>
+</html>
